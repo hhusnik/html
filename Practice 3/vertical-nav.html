@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vertical Navigation Bar</title>
+        <style>
+            ul {
+                list-style-type: none;
+                padding:0px;
+                margin:0px;
+                border:1px solid black;
+                display:inline-block;
+            }
+
+            li a {
+                display:block;
+                width:90px;
+                background-color: #ecf0f1;
+                padding-top:20px;
+                padding-bottom: 20px;
+                text-align: center; 
+                text-decoration: none;
+                color:black;
+            }
+
+            li a:hover {
+                background-color: cadetblue;
+                color:white;
+            }
+
+            li a.active {
+                background-color: cadetblue;
+                color: white;
+                }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+                }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="nav.html">item 1</a></li>
+            <li><a href="nav.html">item 2</a></li>
+            <li><a href="nav.html">item 3</a></li>
+        </ul>
+    </body>
+</html>
+

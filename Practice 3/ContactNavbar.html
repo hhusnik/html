@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             ul {list-style:none;
+                border:solid 4px rgb(28, 28, 151);
+                display:inline-block;
+                padding-left:0;
+                border-radius: 2px;}
+            li a {text-decoration:none;
+                color:rgb(28, 28, 151);
+                background-color:rgb(245, 210, 8);
+                display:block;
+                width:100px;
+                padding-top:20px;
+                padding-bottom:20px;
+                text-align:center;}
+            li a:hover {background-color: aqua;}
+            li {float:left;}
+
+            p {color:#5352ed;
+           text-align:center;
+           font-style:regular;
+           font-weight: bold;
+           font-size: 200%;}
+           .p2 {color:red;
+            text-align:center;
+           font-style:regular;
+           font-weight: bold;
+           font-size: 200%;}
+           .p3 {color:orange;
+            text-align:center;
+           font-style:regular;
+           font-weight: bold;
+           font-size: 200%;}
+           .p4 {color:black;
+                text-align: left;
+                font-style: regular;
+                font-weight: bold;
+                font-size: 150%;}
+        </style>
+        <Title>
+            Henry Husnik Education</Title>
+    </head>
+ <body>
+    <ul>
+        <li><a href="Henry'sDigitalCV.html">Homepage</a></li>
+        <li><a href="EducationNavbar.html">Education</a></li>
+        <li><a href="InternshipNavbar.html">Internship</a></li>
+        <li><a href="AboutMeNavbar.html">About Me</a></li>
+        <li><a href="ContactNavbar.html">Contact</a></li>
+        
+    </ul>
+
+    <p>
+        Cell Phone: 651-333-0601
+    </p>
+    <p class="p2">
+        Email: hhusnik10@gmail.com
+    </p>
+    <p class="p3">
+        Instagram: @hhusnik10
+    </p>
+    <p class="p4">
+        Contact me below!
+    </p>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+ </body>   
+</html>

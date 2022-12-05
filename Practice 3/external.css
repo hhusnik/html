@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        .subscribe {background-color:rgb(227, 20, 20);
+                color:white;
+                border:none;
+                height:45px;
+                width:125px;
+                border-radius:2px;
+                cursor:pointer;}
+        .join {}
+
+        p {color:black;
+           text-align:center;
+           font-style:normal;
+           font-weight: bold;
+           font-size: 150%;}
+
+        .studio {border-style:dashed;
+             border-width:5px;
+             object-fit:contain;}
+
+        .move-in {border-style:dashed;
+             border-width:5px;
+             object-fit:contain;}
+
+        .schar-hall {border-style:dashed;
+             border-width:5px;
+             object-fit:cover;
+            object-position: left;}
+        button {background-color: red;
+         color: aliceblue;
+        border: none;
+        height: 40px;
+        width: 100px;
+        border-radius: 3px;}
+        .tweet {background-color: rgb(81,135,227);
+        color:aliceblue
+        border: none
+        height: 40px
+        width: 100px
+        border-radius: 5px}
+        
+      </style>
+        <title>Elon University</title>
+    </head>
+<body>
+
+<button>
+    SUBSCRIBE
+</button>
+<button class="tweet">TWEET</button>
+
+<p>The School of Communications brings together 
+    1,400 students and more than 80 faculty and staff, 
+    creating a vibrant learning environment that 
+    has propelled it to be one of the nation’s great 
+    communications schools.</p>
+
+<p>Elon students encounter a challenging curriculum 
+    and immerse themselves in professional settings 
+    – all under the mentorship of teacher-scholars 
+    with years of experience in news, interactive media, 
+    television, public relations, advertising, web design, 
+    screenwriting, film production, photojournalism and sport 
+    management.</p>
+
+<img class= "move-in" width="300" height="450"
+    src="image/move-in day.jpeg">
+
+<img class= "schar-hall" width="300" height="450"
+    src=
+    "/image/Elon-Schar-Hall-Steer-Pavilion.jpeg">
+
+<img class= "studio" width="300" height="450"
+    src=
+    "/image/studio.jpeg">
+
+
+
+</body>
+</html>
